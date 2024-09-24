@@ -110,7 +110,8 @@ nav ul li a:hover {
     height: 350px; /* Hoặc điều chỉnh chiều cao banner tùy ý */
     background-size: cover;
     background-position: center;
-    transition: background-image 1s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+    background-image: url("assets/image_123650291.JPG");
+    object-fit: cover;
 }
 
 .banner h2 {
