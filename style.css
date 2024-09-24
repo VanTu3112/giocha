@@ -50,7 +50,7 @@ h1 {
 
 .company-name h1 {
     font-size: 24px;
-    color: #004B87;
+    color: #2b5b17;
     margin-bottom: 5px;
 }
 
@@ -110,8 +110,7 @@ nav ul li a:hover {
     height: 350px; /* Hoặc điều chỉnh chiều cao banner tùy ý */
     background-size: cover;
     background-position: center;
-    background-image: url("assets/image_123650291.JPG");
-    object-fit: cover;
+    background-image: url('assets/image_123650291.JPG');
 }
 
 .banner h2 {
