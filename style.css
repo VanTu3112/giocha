@@ -554,6 +554,9 @@ nav ul {
         border-bottom: 1px solid #4a4f65;
         padding-bottom: 10px;
     }
+    .footer-column p, .footer-column ul {
+        margin-bottom: 6px;
+    }
 }
 
 
@@ -611,7 +614,7 @@ nav ul {
     top:65px;
     right: 0.5rem;
     width: 300px;
-    background: rgba(9, 9, 9, 0.176);
+    background: #4d5263;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
