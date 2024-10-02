@@ -19,16 +19,6 @@ body {
     margin: 0 auto;
     padding: 10px 0;
 }
-<<<<<<< HEAD
-=======
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    
-    /* Remove flex properties to align items vertically */
-}
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 
 .company-overview .container {
     display: block; /* Ensure elements stack vertically */
@@ -109,11 +99,7 @@ h1 {
 
 .company-name h1 {
     font-size: 24px;
-<<<<<<< HEAD
     color: #047f0f;
-=======
-    color: #004B87;
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     margin-bottom: 5px;
 }
 
@@ -144,30 +130,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-<<<<<<< HEAD
     color:  #047f0f;;
 }
 
-=======
-    color: #004B87;
-}
-
-/* Contact Button */
-.contact-button .contact-link {
-    background-color: #004B87;
-    color: white;
-    padding: 10px 16px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 20px;
-}
-
-.contact-button .contact-link:hover {
-    background-color: #003060;
-}
-
-
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 
 
 
@@ -242,7 +207,6 @@ nav ul li a:hover {
     margin: 0;
 }
 
-<<<<<<< HEAD
 /* Style for the navigation bar */
 nav ul {
     list-style: none;
@@ -345,17 +309,6 @@ nav ul {
     }
     .container h4{
         padding-left: 10px;
-=======
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .footer .container {
-        flex-direction: column;
-    }
-
-    .footer-column {
-        width: 100%;
-        margin-bottom: 20px;
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     }
 }
 /* Cài đặt cho màn hình nhỏ hơn (ví dụ: iPhone 13) */
@@ -413,15 +366,7 @@ nav ul {
         flex: 1 0 90%; /* Hiển thị 1 sản phẩm trên màn hình nhỏ */
     }
 
-<<<<<<< HEAD
 
-=======
-    /* Footer */
-    .footer-column {
-        width: 100%;
-        margin-bottom: 10px;
-    }
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 }
 
 .banner {
@@ -458,7 +403,6 @@ nav ul {
     content: "";
     display: block;
     width: 100px; /* Độ dài đường kẻ */
-<<<<<<< HEAD
     border-bottom: 3px solid #489627; /* Màu xanh và độ dày của đường kẻ */
     margin-top: 5px;
 }
@@ -513,8 +457,3 @@ nav ul {
     cursor: pointer;
     color: #047f0f;
 }
-=======
-    border-bottom: 3px solid #0072bc; /* Màu xanh và độ dày của đường kẻ */
-    margin-top: 5px;
-}
->>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
