@@ -50,7 +50,11 @@ h1 {
 
 .company-name h1 {
     font-size: 24px;
+<<<<<<< HEAD
     color: #047f0f;
+=======
+    color: #2b5b17;
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     margin-bottom: 5px;
 }
 
@@ -81,7 +85,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+<<<<<<< HEAD
     color:  #047f0f;;
+=======
+    color: #004B87;
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 }
 
 /* Contact Button */
@@ -103,6 +111,7 @@ nav ul li a:hover {
 /* Banner Section */
 .banner {
     position: relative;
+<<<<<<< HEAD
     text-align: center;
     padding: 100px 0;
     margin-top: 70px;
@@ -110,6 +119,16 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     background-image: url('assets/resized_image_1300x330.JPG');
+=======
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 70px;
+    height: 350px; /* Hoặc điều chỉnh chiều cao banner tùy ý */
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/image_123650291.JPG');
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 }
 
 .banner h2 {
@@ -335,6 +354,10 @@ nav ul li a:hover {
     background-color: #e67e22;
   }
   
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
   @media (max-width: 768px) {
     .product-grid {
         grid-template-columns: repeat(2, 1fr); /* Mỗi hàng 2 sản phẩm trên màn hình nhỏ hơn */
@@ -419,6 +442,7 @@ nav ul li a:hover {
     margin: 0;
 }
 
+<<<<<<< HEAD
 /* Style for the navigation bar */
 nav ul {
     list-style: none;
@@ -563,6 +587,21 @@ nav ul {
     .dropdown{
         display: block;
     }
+=======
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/* Cài đặt cho màn hình nhỏ hơn (ví dụ: iPhone 13) */
+@media (max-width: 480px) {
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     /* Header */
     .company-name h1 {
         font-size: 18px;
@@ -573,13 +612,40 @@ nav ul {
         height: 40px;
     }
 
+<<<<<<< HEAD
+=======
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .contact-button .contact-link {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 
     /* Banner */
     .banner h2 {
         font-size: 24px;
+<<<<<<< HEAD
     }
 
     /* Company Introduction */
+=======
+        margin-bottom: 10px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    /* Section "Company Introduction" */
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     .company-introduction {
         padding: 20px 0;
     }
@@ -591,13 +657,18 @@ nav ul {
 
     .intro-icon {
         text-align: center;
+<<<<<<< HEAD
         margin-bottom: 15px;
+=======
+        margin-bottom: 20px;
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
     }
 
     .intro-text {
         margin-left: 0;
     }
 
+<<<<<<< HEAD
     /* Products */
     .product-grid {
         grid-template-columns: repeat(2, 1fr); /* Mỗi hàng 1 sản phẩm */
@@ -654,4 +725,20 @@ nav ul {
 .dropdown .dropdown_menu li a:hover {
     cursor: pointer;
     color: #047f0f;
+=======
+    /* Section "Products" */
+    .products h2 {
+        font-size: 22px;
+    }
+
+    .product {
+        flex: 1 0 90%; /* Hiển thị 1 sản phẩm trên màn hình nhỏ */
+    }
+
+    /* Footer */
+    .footer-column {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+>>>>>>> 297c71a6a93dec029986f19f1d7b042aa9d8e5b0
 }
